@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cv44qg0keavdg"
+path="res://.godot/imported/AnyConv.com__escalator.obj-21a99eb42f6e4f29dc8886ecf4b01134.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AnyConv.com__escalator.obj-21a99eb42f6e4f29dc8886ecf4b01134.mesh"]
+
+source_file="res://models/AnyConv.com__escalator.obj"
+dest_files=["res://.godot/imported/AnyConv.com__escalator.obj-21a99eb42f6e4f29dc8886ecf4b01134.mesh", "res://.godot/imported/AnyConv.com__escalator.obj-21a99eb42f6e4f29dc8886ecf4b01134.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
