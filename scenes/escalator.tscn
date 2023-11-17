@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7txliranl34r"]
+
+[ext_resource type="ArrayMesh" uid="uid://cv44qg0keavdg" path="res://models/AnyConv.com__escalator.obj" id="1_415od"]
+
+[node name="escalator" type="Node3D"]
+
+[node name="AnyConv_comEscalator" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.0820959, 10.4987, 8.50104, 4.81152)
+mesh = ExtResource("1_415od")
