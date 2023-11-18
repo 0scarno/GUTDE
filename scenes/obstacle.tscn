@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsvf44gjwkux8"]
+
+[ext_resource type="Texture2D" uid="uid://bkfoxa8r2cnmw" path="res://textures/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png" id="8_0ci0r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_84ehb"]
+size = Vector3(1, 1, 0.104157)
+
+[sub_resource type="QuadMesh" id="QuadMesh_kckav"]
+size = Vector2(10, 25)
+
+[sub_resource type="PlaceholderMaterial" id="PlaceholderMaterial_qycgc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_debd0"]
+next_pass = SubResource("PlaceholderMaterial_qycgc")
+transparency = 1
+shading_mode = 0
+albedo_texture = ExtResource("8_0ci0r")
+heightmap_scale = 1.09
+billboard_mode = 1
+
+[node name="obstacle" type="Node3D"]
+
+[node name="obstacleArea3D" type="Area3D" parent="."]
+
+[node name="obstacleCollisionShape3D" type="CollisionShape3D" parent="obstacleArea3D"]
+shape = SubResource("BoxShape3D_84ehb")
+
+[node name="obstacleMeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("QuadMesh_kckav")
+surface_material_override/0 = SubResource("StandardMaterial3D_debd0")

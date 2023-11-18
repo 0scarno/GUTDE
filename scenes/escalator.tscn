@@ -5,5 +5,5 @@
 [node name="escalator" type="Node3D"]
 
 [node name="AnyConv_comEscalator" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.0820959, 10.4987, 8.50104, 4.81152)
+transform = Transform3D(0.0100766, 0, 0, 0, 0.01, 0, 0, 0, 0.047615, 10.4987, 8.50104, 4.81152)
 mesh = ExtResource("1_415od")
