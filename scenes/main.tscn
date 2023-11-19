@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://bw04jrd4m3jd6"]
+[gd_scene load_steps=4 format=3 uid="uid://bw04jrd4m3jd6"]
 
 [ext_resource type="PackedScene" uid="uid://c7txliranl34r" path="res://scenes/escalator.tscn" id="1_70240"]
-[ext_resource type="PackedScene" uid="uid://dsvf44gjwkux8" path="res://scenes/obstacle.tscn" id="2_7mv24"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_sy0w3"]
 
@@ -23,9 +22,6 @@ near = 0.006
 
 [node name="escalator" parent="." instance=ExtResource("1_70240")]
 transform = Transform3D(-0.500711, 0, -0.865615, 0, 1, 0, 0.865615, 0, -0.500711, 17.2519, -0.666898, 0.023138)
-
-[node name="obstacle" parent="escalator" instance=ExtResource("2_7mv24")]
-transform = Transform3D(-11.3113, 0, 14.6457, 0, 17.1241, 0, -9.09852, 0, -7.02707, -3.84473, 45.9596, 16.1002)
 
 [node name="BackgroundColour" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_o4uin")

@@ -3,16 +3,16 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkfoxa8r2cnmw"
-path.s3tc="res://.godot/imported/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png-c9b417e971928c22d4ec9d6e56dc39f6.s3tc.ctex"
+path.etc2="res://.godot/imported/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png-c9b417e971928c22d4ec9d6e56dc39f6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://textures/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png"
-dest_files=["res://.godot/imported/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png-c9b417e971928c22d4ec9d6e56dc39f6.s3tc.ctex"]
+dest_files=["res://.godot/imported/handsome-man-standing-relaxed-front-view-handsome-elegant-man-moccasins-gray-trousers-white-shirt-standing-relaxed-front-173443511.png-c9b417e971928c22d4ec9d6e56dc39f6.etc2.ctex"]
 
 [params]
 

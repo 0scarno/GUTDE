@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://bixps8s8il0fa"]
+
+[ext_resource type="Script" path="res://Movement.gd" id="1_i6uvf"]
+[ext_resource type="Material" uid="uid://622mxp7ymifj" path="res://textures/new_shader_material.tres" id="2_hmdu2"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lpjwx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hyahy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fd872"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y78by"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mvhlh"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.03823, 0)
+script = ExtResource("1_i6uvf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("CapsuleShape3D_lpjwx")
+
+[node name="Camera3D" type="Camera3D" parent="RigidBody3D"]
+current = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.59708)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_hyahy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("BoxMesh_fd872")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.77757, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+transform = Transform3D(25, 0, 0, 0, 1, 0, 0, 0, 25, 0, 0, 0)
+shape = SubResource("BoxShape3D_y78by")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D2/CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00133, 0)
+material_overlay = ExtResource("2_hmdu2")
+mesh = SubResource("PlaneMesh_mvhlh")
+skeleton = NodePath("../..")
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="StaticBody3D2"]
+height = 1.0

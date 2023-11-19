@@ -3,16 +3,16 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doh7s325iv2s8"
-path.s3tc="res://.godot/imported/621b40c99663c9355faa1bc00bac4528--male-standing-pose-male-pose.png-93bfa94cf6a7df22bdb2d31b4388e3ef.s3tc.ctex"
+path.etc2="res://.godot/imported/621b40c99663c9355faa1bc00bac4528--male-standing-pose-male-pose.png-93bfa94cf6a7df22bdb2d31b4388e3ef.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://textures/621b40c99663c9355faa1bc00bac4528--male-standing-pose-male-pose.png"
-dest_files=["res://.godot/imported/621b40c99663c9355faa1bc00bac4528--male-standing-pose-male-pose.png-93bfa94cf6a7df22bdb2d31b4388e3ef.s3tc.ctex"]
+dest_files=["res://.godot/imported/621b40c99663c9355faa1bc00bac4528--male-standing-pose-male-pose.png-93bfa94cf6a7df22bdb2d31b4388e3ef.etc2.ctex"]
 
 [params]
 
